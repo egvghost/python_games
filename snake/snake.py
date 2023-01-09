@@ -1,5 +1,4 @@
 from turtle import Turtle
-from time import sleep
 
 SNAKE_COLOR = "green"
 SNAKE_SHAPE = "square"
