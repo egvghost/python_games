@@ -30,10 +30,10 @@ def start_game():
       collision = False
       if snake.head.distance(segment) < 10:
         collision = True
-        print("collision detected")
         break
     if collision:
       break
+  print("collision detected")
   score.game_over()
 
 snake = Snake()
