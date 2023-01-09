@@ -6,7 +6,8 @@ from scoreboard import Scoreboard
 
 screen = Screen()
 screen.setup(width=600, height=600)
-screen.title("SNAKE GAME - Feed the snake and prevent it from biting its own tail!")
+screen.title("SNAKE GAME - Hit 'space' to start")
+# Feed the snake and prevent it from biting its own tail!
 screen.bgcolor("black")
 screen.tracer(0)
 
