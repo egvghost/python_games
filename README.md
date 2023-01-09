@@ -5,6 +5,7 @@
 * Blackjack
 * Numbers
 * Trivia
+* Turtle race
 
 ## Author
 
