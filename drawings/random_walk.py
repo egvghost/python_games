@@ -14,7 +14,7 @@ def random_color():
   b = randint(0, 255)
   return (r, g, b)
 
-for _ in range(500):
+for _ in range(300):
   pen.color(random_color())
   pen.right(choice(angles))
   pen.forward(30)
