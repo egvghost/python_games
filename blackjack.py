@@ -161,6 +161,7 @@ while True:
   dealer_bj = ''
   deal()
   while True:
+    system('clear')
     print(blackjack_logo)
     dealer_points = get_points(dealer_cards, hide_card)
     player_points = get_points(player_cards)
