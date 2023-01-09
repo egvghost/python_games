@@ -72,7 +72,7 @@ def start_race():
       turtle.pendown()
       turtle.forward(choice(steps))
       if turtle.xcor() > 262:
-        winner.append(turtle.color()[0])
+        winner.append(turtle.fillcolor())
   print(f"Winner: {winner} - Your bet: '{bet}'")
   if bet in winner:
     print(f"You won!!")
