@@ -34,6 +34,7 @@ def goal_line():
     pen.forward(5)
     pos += 10
 
+  pen.hideturtle()
   pen.forward(10)
   pen.pendown()
   pen.forward(53)
@@ -62,7 +63,6 @@ def goal_line():
     pen.setpos(xpos, ypos + 5)
     pen.setheading(180 * (n + 1))
     pen.forward(-3)
-  pen.hideturtle()
 
 # Set race parameters
 def start_race():
@@ -86,7 +86,7 @@ goal_line()
 turtles = []
 colors = ['red', 'green', 'blue', 'yellow', 'purple']
 positions = [200, 100, 0, -100, -200]
-steps = [2, 4, 6, 8, 10]
+steps = range(1, 10)
 shuffle(colors)
 for i in range(5):
   turtle = Turtle(shape='turtle')
