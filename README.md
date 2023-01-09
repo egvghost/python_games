@@ -9,6 +9,7 @@
 * Trivia
 * Turtle race
 * Snake
+* Pong
 
 ## Drawings
 
