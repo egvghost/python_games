@@ -4,6 +4,7 @@
 * Hangman
 * Blackjack
 * Numbers
+* Trivia
 
 ## Author
 
