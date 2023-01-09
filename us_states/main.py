@@ -4,7 +4,7 @@ import pandas
 screen = Screen()
 screen.setup(725, 491)
 screen.title("🇺🇸 U.S. 50 States GAME 📍")
-screen.bgpic("blank_states_img.gif")
+screen.bgpic("./blank_states_img.gif")
 
 states = pandas.read_csv("./50_states.csv")
 # print(states.state)
