@@ -10,13 +10,13 @@
 import random
 from os import system
 
-numberle_logo = '''
-                       _                _   
-                      | |              | |   
- _ __  _   _ _ __ ___ | |__   ___ _ __ | | ___ 
-| '_ \| | | | '_ ' _ \| '_ \ / _ \ '__/| |/ _ \ 
-| | | | |_| | | | | | | |_) |  __/ |   | |  __/
-|_| |_|\__,_|_| |_| |_|_.__/ \___|_|   |_|\___|
+numbers_logo = '''
+                       _                   
+                      | |                  
+ _ __  _   _ _ __ ___ | |__   ___ _ __ ___ 
+| '_ \| | | | '_ ` _ \| '_ \ / _ \ '__/ __|
+| | | | |_| | | | | | | |_) |  __/ |  \__ \ 
+|_| |_|\__,_|_| |_| |_|_.__/ \___|_|  |___/
 
 '''
 
@@ -33,9 +33,9 @@ attempts = []
 
 while your_number != ''.join(hidden_number):
   system('clear')
-  print(numberle_logo)
+  print(numbers_logo)
   if (good + regular + bad) > 0:
-    attempts.append(f"Your guess for {your_number}: {good} (G), {regular} (R), {bad} (B)\n")
+    attempts.append(f"Your guess for {your_number}: {good} (G)ood, {regular} (R)egular, {bad} (B)ad\n")
   for item in attempts:
     print(item)
   good, regular, bad = 0, 0, 0
