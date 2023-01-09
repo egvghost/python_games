@@ -8,6 +8,7 @@
 * Numbers
 * Trivia
 * Turtle race
+* Snake
 
 ## Drawings
 
