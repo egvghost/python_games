@@ -3,7 +3,7 @@
 * Rocks, Paper, Scissors
 * Hangman
 * Blackjack
-
+* Numbers
 
 ## Author
 
