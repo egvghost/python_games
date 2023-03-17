@@ -7,6 +7,7 @@
 * Blackjack
 * Numbers
 * Trivia
+* Quiz
 * Turtle race
 * Snake
 * Pong
